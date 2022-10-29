@@ -1,0 +1,23 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "Warming up my knowledge about react with small projects using latest react practices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsamaShabrez/react-playground.git"
+  },
+  "keywords": [],
+  "author": "Muhammad Osama Shabrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsamaShabrez/react-playground/issues"
+  },
+  "homepage": "https://github.com/OsamaShabrez/react-playground#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
