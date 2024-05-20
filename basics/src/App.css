@@ -7,7 +7,8 @@ html {
 }
 
 header {
-  position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 100%;
@@ -25,7 +26,9 @@ footer {
 }
 
 main {
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-top: 10%;
   margin-bottom: 10%;
   height: 80%;
@@ -94,5 +97,48 @@ li svg {
 li svg:focus,
 li svg:hover {
   color: red;
+  outline: none;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem 0 0;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid #eee;
+  justify-content: center;
+}
+
+form label {
+  position: absolute;
+  left: -999999px;
+}
+
+form input[type="text"] {
+  flex-grow: 1;
+  max-width: calc(100% - 75px);
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+form button {
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: aliceblue;
+  color: mediumblue;
+  cursor: pointer;
+}
+
+form button:focus,
+form button:hover {
+  color: white;
+  background-color: limegreen;
   outline: none;
 }
