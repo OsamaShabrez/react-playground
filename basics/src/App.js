@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Header from "./Header.js";
 import AddItem from "./AddItem.js";
@@ -11,17 +11,17 @@ function App() {
     {
       id: 1,
       checked: false,
-      title: "Random Item 1",
+      title: "Alpha Bravo Charlie",
     },
     {
       id: 2,
       checked: false,
-      title: "Random Item 2",
+      title: "Royal Blue Dragon",
     },
     {
       id: 3,
       checked: false,
-      title: "Random Item 3",
+      title: "Me Gusta",
     },
   ]);
   const [newItem, setNewItem] = useState("");
